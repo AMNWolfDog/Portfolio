@@ -1,0 +1,15 @@
+body {
+  font-family: cursive;
+  font-style: oblique;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li.a {
+    display: block;
+    width: 60px;
+}

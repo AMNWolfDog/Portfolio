@@ -1,0 +1,68 @@
+body {
+  background-color: #3F547C;
+}
+
+h1{
+  color: white;
+  border-color: black;
+
+   text-align: center;
+   font-family: cursive;
+   font-size: 40px;
+}
+
+p{
+  text-align: center;
+  font-style: oblique;
+  font-family: cursive;
+}
+
+.container {
+  width: 700px;
+  height: 900px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEXc0P741OuKAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=);
+  background-size: cover;
+  margin: 0 auto 100px;
+}
+.answers li {
+list-style: upper-alpha;
+}
+
+label {
+margin-left: 0.5em;
+cursor: pointer;
+}
+
+#results {
+background: #dddada;
+color: 000000;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
+
+#results:hover {
+background: #3d91b8;
+color: #ffffff;
+padding: 3px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+border: 1px solid gray;
+}
+
+#categorylist {
+margin-top: 6px;
+display: none;
+}
+
+#category1, #category2, #category3, #category4 {
+display: none;
+}
+
+#closing {
+display: none;
+font-style: italic;
+}

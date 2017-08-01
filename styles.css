@@ -1,0 +1,50 @@
+body{
+  background-color: skyblue;
+  padding: 30px;
+  margin: 30px;
+
+}
+
+div.content{
+  position: relative;
+  left: 340px;
+  right: 10px;
+    text-align: center;
+}
+
+#about-me {
+  text-shadow: 30px, hotpink;
+}
+
+#yoosung{
+  width: 300px;
+  height: 390px;
+}
+
+aside.sidebar:hover{
+  background-color: orange;
+}
+
+aside.sidebar{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 300px;
+  background-color: gray;
+  border-style: solid dotted;
+  border-width: thick;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#reflections {
+    color: maroon;
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}

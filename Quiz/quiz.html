@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>What's Your Spirit Animal?</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <script src="quiz.js"></script>
+  </head>
+
+  <body>
+    <div class = "webpage">
+      <h1 id = "heading"> What is your spirit animal?</h1>
+    <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#search">Search</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#master-list">Master List</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class= "answers">
+      <p id="quest" onclick="addQuestion()"></p>
+    </div>
+
+    <script>
+      addQuestion();
+    </script>
+
+    <div class = "input">
+      <button id=drag onclick="add()">Beat up the beater-upper.</button><br>
+      <button id=kang onclick = "add()">Cheer up your friend.</button><br>
+      <button id=peng onclick = "add()">Comfort your friend.</button><br>
+      <button id=cfish onclick = "add()">Stay with your friend.</button><br>
+    </div>
+
+
+  </body>
+</html>

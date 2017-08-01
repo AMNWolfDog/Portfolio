@@ -1,0 +1,47 @@
+body{
+  background-color: grey;
+}
+
+.a1{
+    border-style: inset;
+    border-width: 1px;
+    border-color: white;
+    background-color: orange;
+    color: white;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 60px;
+}
+
+
+li {
+  display: inline;
+}
+
+.writing{
+  font-size: 15px;
+}
+
+.words{
+  font-family: sans-serif;
+  border-style: outset;
+  text-align: left;
+  background-color: white;
+}
+
+.bottom{
+  font-size: 10px;
+}
+
+#home{
+  font-size: 25px;
+  color: orange;
+}
+
+#menu{
+  font-family: cursive;
+}
